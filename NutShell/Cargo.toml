@@ -1,0 +1,18 @@
+[package]
+name = "nutshell"
+version = "0.1.0"
+edition = "2024"
+description = "Rust scaffolding for NutOS's NutShell universal compatibility layer."
+license = "Apache-2.0 OR MIT"
+publish = false
+
+[lib]
+name = "nutshell"
+path = "src/lib.rs"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[lints.clippy]
+pedantic = "warn"
