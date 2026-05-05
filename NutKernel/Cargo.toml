@@ -1,0 +1,18 @@
+[package]
+name = "nutkernel"
+version = "0.1.0"
+edition = "2024"
+description = "Rust scaffolding for NutOS's modified Linux kernel integration."
+license = "Apache-2.0 OR MIT"
+publish = false
+
+[lib]
+name = "nutkernel"
+path = "src/lib.rs"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[lints.clippy]
+pedantic = "warn"
