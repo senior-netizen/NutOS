@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "Acorn",
+    "NutKernel",
+    "NutShell",
+]
+resolver = "3"

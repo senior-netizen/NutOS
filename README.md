@@ -44,6 +44,7 @@
 | `architecture/KERNEL.md` | Kernel design and approach |
 | `architecture/NUTSHELL.md` | Universal app compatibility layer |
 | `architecture/UI_DESIGN.md` | Desktop environment and design system |
+| `Acorn/README.md` | Acorn desktop environment Rust scaffold |
 | `architecture/SECURITY.md` | Security and privacy architecture |
 | `architecture/HARDWARE.md` | Hardware support strategy |
 | `roadmap/PHASES.md` | Development phases and milestones |
