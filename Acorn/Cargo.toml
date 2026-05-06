@@ -1,0 +1,24 @@
+[package]
+name = "acorn"
+version = "0.1.0"
+edition = "2024"
+description = "Rust scaffolding for NutOS's Acorn desktop environment, compositor, and native UI toolkit."
+license = "Apache-2.0 OR MIT"
+publish = false
+
+[lib]
+name = "acorn"
+path = "src/lib.rs"
+
+[dependencies]
+wayland-client = "0.31.14"
+wayland-protocols = { version = "0.32.12", features = ["client", "staging", "unstable"] }
+wayland-server = "0.31.13"
+wgpu = "29.0.1"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[lints.clippy]
+pedantic = "warn"
